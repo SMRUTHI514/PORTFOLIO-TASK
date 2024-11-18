@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*header section*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'poppins',sans-serif;
+    background-color: #081b29;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(162, 190, 201);
+    padding: 20px;
+    font-size: 20px;
+}
+.headerlinks a:hover{
+    font-size:25px;
+    transition: 1s;
+}
+/*about section*/
+.about{
+    line-height:2.5;
+    text-align: justify;
+    font-size: 25px;
+    background-color: rgb(162, 190, 201);
+    display: block;
+    padding : 30px;
+    padding-bottom: 35px;
+    margin-top: 70px;
+    color:black;
+}
+#abt{
+    font-size: 90px;
+    padding-top: 10px;
+    color: blue;
+}
+.h2{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 120px;
+    padding-top: 35px;
+    padding-bottom: 117px;
+}
+.links{
+    font-size:large;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;    
+}
+.img{
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 40%;
+}
+#l1,#l2,#l3,#l4,#l5,#l6{
+    border:2px solid rgb(35, 168, 195);
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 5px 10px;
+}
+.links a:hover{
+    color: blue;
+}
+#sk{
+    display: flex;
+    justify-content: center;
+    line-height: 4.5;
+    font-size: 30px; 
+    margin-top:-180px;
+    font-size: 90px;
+    padding-top: 30px;
+    color: blue; 
+}
+#skill{
+    line-height:3;
+    font-size:30px;
+    background-color:white;
+    display: block;
+    padding : 20px;
+    padding-bottom: 50px;
+    padding-top:3px;
+    color: black;
+   
+}
+.soft{
+    margin-left: 700px;
+    margin-top: -450px;
+    padding-bottom: 47px;
+}
+.technical{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.projects{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    line-height: 3;
+    font-size: 30px;
+    padding-top:150px;
+    padding-bottom: 350px;
+    background-color: rgb(162, 190, 201);
+}
+.projects a:hover{
+    color:red;
+    font-size:50px;
+    transition: 1s;
+}
+.pro{
+    margin-left: -16%;
+}
+.education{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    line-height:2.5;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 400px;
+    padding-bottom: 80px;
+    background-color:white;
+    color: black;
+}
+#edulist{
+    margin-left: -18%;
+}
+.experience{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    line-height: 3;
+    padding-top: 30px;
+    padding-bottom: 300px;
+    font-size: 30px;
+    background-color:rgb(162, 190, 201);
+    color: black;
+}
+#explist{
+    margin-left: -19%;
+}
+.contact{
+    background-color: white;
+    color:black;
+    font-size: 30px;
+    padding-left: 500px;
+    padding-top: 150px;
+    padding-bottom: 350px;
+    line-height: 3;
+}
+.mail,.phone,.location{
+    margin-left:-93px;
+    line-height: 2;
+    font-size: large;
+}
+.contact :hover{
+    color: red;
+}
+::-webkit-scrollbar{
+    display: none;
+}
